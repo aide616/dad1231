@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url('../images/bg.gif');
+}
+.current {
+  display: none;
+}
+.shurukuang {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 350px;
+  height: 50px;
+}
+.shurukuang input {
+  width: 300px;
+  height: 50px;
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+}
+.shurukuang button {
+  box-sizing: border-box;
+  position: relative;
+  float: right;
+  width: 50px;
+  height: 50px;
+}
+.wrap {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url('../images/content_bg.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.wrap > .kuang {
+  position: absolute;
+  width: 227px;
+  left: 0;
+  top: 0;
+  height: 208px;
+  z-index: 1;
+}
+.wrap > .kuang .top {
+  width: 100%;
+  height: 68px;
+  padding-top: 20px;
+  text-align: center;
+  line-height: 68px;
+  background-size: 100% 100%;
+  background-image: url('../images/tip1_h.gif');
+}
+.wrap > .kuang .bottom {
+  width: 100%;
+  height: 140px;
+  background-image: url('../images/tip1_f.gif');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.wrap > .kuang > a {
+  text-decoration: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
